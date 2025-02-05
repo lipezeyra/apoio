@@ -5,6 +5,23 @@ body {
     background-color: #f9f9f9; /* Fundo mais claro e suave */
     color: #333; /* Cor do texto mais escura para melhor contraste */
     line-height: 1.6; /* Melhora a legibilidade do texto */
+
+    
+}
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
 }
 
 header {
@@ -52,14 +69,12 @@ section {
 }
 
 footer {
-    text-align: center;
-    padding: 15px 0;
-    background-color: #333;
-    color: #fff;
-    position: fixed;
+    position: relative;
     width: 100%;
-    bottom: 0;
-    font-size: 0.9rem;
+    padding: 20px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
 }
 
 form {
